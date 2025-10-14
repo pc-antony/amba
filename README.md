@@ -20,30 +20,40 @@ The Alert state column shows the state that the alert is deployed with by defaul
 |VirtualHubDataProcessed |Metric|Disabled| Data processed by the Virtual Hub Router. Data on how much traffic traverses the virtual hub router in a given time period. (bytes)|
 
 ### Peering Availability
-metricName	PeeringAvailability
-metricNamespace	Microsoft.Network/virtualRouters
-autoMitigate	false
-enabled	true
-criterionType	StaticThresholdCriterion
-timeAggregation	Average
-operator	LessThan
-threshold	1
-evaluationFrequency	PT5M
-windowSize	PT5M
-severity	0
+   *BGP Availability between VirtualRouter and remote peers*
+   
+**Properties:**
+|Property|Value|
+|---|---|
+|metricName|PeeringAvailability|
+|metricNamespace|Microsoft.Network/virtualRouters|
+|autoMitigate|false|
+|enabled|true|
+|criterionType|StaticThresholdCriterion|
+|timeAggregation|Average|
+|operator|LessThan|
+|threshold|1|
+|evaluationFrequency|PT5M|
+|windowSize|PT5M|
+|severity|0|
 
 ### BGP Peer Status
-metricName	bgpPeerStatus
-metricNamespace	Microsoft.Network/virtualhubs
-autoMitigate	false
-enabled	true
-criterionType	StaticThresholdCriterion
-timeAggregation	Average
-operator	LessThan
-threshold	1
-evaluationFrequency	PT5M
-windowSize	PT5M
-severity	0
+   *Up or Down Status of BGP Peers*
+
+**Properties:**
+|Property|Value|
+|---|---|
+|metricName|bgpPeerStatus|
+|metricNamespace|Microsoft.Network/virtualhubs|
+|autoMitigate|false|
+|enabled|true|
+|criterionType|StaticThresholdCriterion|
+|timeAggregation|Average|
+|operator|LessThan|
+|threshold|1|
+|evaluationFrequency|PT5M|
+|windowSize|PT5M|
+|severity|0|
 
 #### Templates:
 [![Deploy to ARM](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3a%2f%2fraw.githubusercontent.com%2fpc-antony%2famba%2frefs%2fheads%2fmain%2ftemplates%2farm%2frouteServerBgpPeerStatus.json)
