@@ -57,8 +57,7 @@ https://learn.microsoft.com/en-us/azure/azure-monitor/reference/supported-metric
 
 ## Templates:
 
-https://portal.azure.com/#create/Microsoft.Template/uri/https%3a%2f%2fraw.githubusercontent.com%2fAzure%2fazure-monitor-baseline-alerts%2frefs%2fheads%2fmain%2fservices%2fNetwork%2fexpressRouteGateways%2ftemplates%2farm%2fERGatewayConnectionBitsInPerSecond_ff147700-c9e6-4063-bb23-45500c00067a.json
-
+[![Deploy to ARM](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3a%2f%2fraw.githubusercontent.com%2fpc-antony%2famba%2frefs%2fheads%2fmain%2ftemplates%2farm%2frouteServerBgpPeerStatus.json)
 
 <details>
 <summary>Deploy to Azure Policy</summary>
