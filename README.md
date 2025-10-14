@@ -11,7 +11,7 @@ The Alert state column shows the state that the alert is deployed with by defaul
 
 |Name|Type|Alert state|Description|
 |---|---|---|---|
-|PeeringAvailability |Metric|Enabled| BGP Availability between VirtualRouter and remote peers (%)|
+|[PeeringAvailability](#peering-availability) |Metric|Enabled| BGP Availability between VirtualRouter and remote peers (%)|
 |[BgpPeerStatus](#bgp-peer-status)|Metric|Enabled| Up or Down Status of BGP Peers|
 |CountOfRoutesAdvertisedToPeer |Metric|Enabled| Total number of routes advertised to a Peer (count)|
 |CountOfRoutesLearnedFromPeer |Metric|Enabled| Total number of routes learned from a Peer (count)|
